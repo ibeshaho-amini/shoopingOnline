@@ -49,7 +49,7 @@ const ProductShowcase = () => {
       price: 79.99,
       category: "home",
       rating: 4.4,
-      image: "images/4570.jpg",
+      image: "images/4572.jpg",
       description: "Automated coffee maker with timer"
     },
     {
@@ -58,7 +58,7 @@ const ProductShowcase = () => {
       price: 49.99,
       category: "beauty",
       rating: 4.9,
-      image: "images/4571.jpg",
+      image: "images/4575.jpg",
       description: "Anti-aging serum with vitamin C"
     },
     {
@@ -85,7 +85,7 @@ const ProductShowcase = () => {
       price: 29.99,
       category: "fitness",
       rating: 4.6,
-      image: "images/4574.jpg",
+      image: "images/4577.jpg",
       description: "Non-slip yoga mat with carrying strap"
     },
     {
@@ -112,7 +112,7 @@ const ProductShowcase = () => {
       price: 149.99,
       category: "home",
       rating: 4.8,
-      image: "images/4577.jpg",
+      image: "images/4574.jpg",
       description: "HEPA air purifier for large rooms"
     },
     // Add more products as needed

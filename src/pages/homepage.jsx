@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -31,11 +32,11 @@ const HomePage = () => {
           </div>
           
           <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8">
-            <a href="#" className="text-white border-b-2 border-white">Home</a>
-            <a href="products.jsx" className="text-white hover:text-yellow-400 transition-colors">Products</a>
-            <a href="#" className="text-white hover:text-yellow-400 transition-colors">Pricing</a>
-            <a href="#" className="text-white hover:text-yellow-400 transition-colors">About</a>
-            <a href="#" className="text-white hover:text-yellow-400 transition-colors">Reviews</a>
+             <Link to="/" className="text-white border-b-2 border-white">Home</Link>
+            <Link to="/products" className="text-white hover:text-yellow-400 transition-colors">Products</Link>
+            <Link to="/pricing" className="text-white hover:text-yellow-400 transition-colors">Pricing</Link>
+            <Link to="/about" className="text-white hover:text-yellow-400 transition-colors">About</Link>
+            <Link to="/reviews" className="text-white hover:text-yellow-400 transition-colors">Reviews</Link>
             <button className="px-4 py-2 bg-yellow-400 text-blue-900 rounded-md font-semibold hover:bg-yellow-300 transition-colors">
               SIGN UP
             </button>
@@ -92,7 +93,7 @@ const HomePage = () => {
               </ul>
             </div>
             <button className="w-full md:w-auto px-8 py-4 bg-yellow-400 text-blue-900 rounded-md font-semibold flex items-center justify-center gap-2 hover:bg-yellow-300 transition-colors group">
-              Start Shopping Now
+            <Link to="/products" className="text-white hover:text-yellow-400 transition-colors"> Start Shopping Now</Link>
               <span className="text-xl group-hover:translate-x-1 transition-transform">→</span>
             </button>
             <p className="text-white/80 text-sm">
